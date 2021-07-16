@@ -11,12 +11,12 @@ Step 2: aprire la cartella con Visual Studio Code oppure altri programmi per lo 
 
 ## Link ai documenti
 Per accedere alle piattaforme utilizzate per la fase di analisi è possibile trovare i link all'interno della repository nel file "link.docs" contenente tutti i link oppure aprire tramite i link sottostanti: 
-- #### Mirò
-- #### Figma https://www.figma.com/team_invite/redeem/VCxzwCAo70golS8wMFtxZi
+- #### Mirò https://miro.com/app/board/o9J_l6MkzoQ=/
+- #### Team Figma https://www.figma.com/team_invite/redeem/VCxzwCAo70golS8wMFtxZi
 - #### Cartella in Drive https://drive.google.com/drive/folders/1FQEXgmy4oxFInOlcd2wIREhmhkMsuFx6?usp=sharing
 - #### Marega_Sistema_Innovativo Docs https://docs.google.com/document/d/1-jHPAbyxrSvylMH0Qjzta6vDXQ8XkOgLEQB9oXpcWys/edit?usp=sharing
 
-Ps. I link realtivi ai servizi di Google sono accessibili soltanto con l'account scolastico.
+Ps. I link relativi ai servizi di Google sono accessibili soltanto con l'account scolastico.
 
 ## Prototipizazzione
 Il mock dell'applicativo è accessibile tramite questo link https://www.figma.com/file/gapy1TGFhutlHgAi2yHmw1/Applicativo?node-id=0%3A1
@@ -32,7 +32,6 @@ L'applicativo è stato strutturato in questo modo:
 - cartella assets - contiene tutte le immagini interessate all'applicativo
 
 Le pagine che sono state realizzate sono:
-
 
 ## Sistema Innovativo
 ### Docs
