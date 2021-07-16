@@ -1,0 +1,45 @@
+/*  "Light Grey": #fafafa,
+    "Grey": #dedede,
+    "Gray": #5c5c5c,
+    "Dark Grey": #404040,
+    "Light Blu": #ced6de,
+    "Blue Grey": #9aadbf,
+    "Blue": #404e7c,
+    "Dark Blu": #251f47,
+    "Red": #df2935,
+    "Green": #45ad7f,
+    "Yellow": #ffde4c, */
+
+h1 {
+    font-family: "roboto-regular";
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 10px;
+}
+
+h2 {
+    font-family: "roboto-light";
+    font-size: 36px;
+    line-height: 20px;
+    letter-spacing: 10px;
+}
+
+h3 {
+    font-family: "roboto-medium";
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: 10px;
+}
+
+h4 {
+    font-family: "roboto-light";
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 10px;
+}
+
+p {
+    font-family: "roboto-light";
+    font-size: 18px;
+    line-height: 20px;
+}

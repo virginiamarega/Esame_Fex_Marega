@@ -1,0 +1,57 @@
+.navbar_font {
+    font-family: "roboto-bold";
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.footer_font {
+    font-family: "roboto-bold";
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.btn_font {
+    font-family: "roboto-bold";
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+.info {
+    font-family: "roboto-light";
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.h1_landing {
+    font-family: "roboto-medium";
+    font-size: 52px;
+    line-height: 20px;
+    letter-spacing: 10px;
+}
+
+.h2_landing {
+    font-family: "roboto-thin";
+    font-size: 26px;
+    line-height: 20px;
+    letter-spacing: 10px;
+}
+
+.p_landing {
+    font-family: "roboto-light";
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: 10px;
+}
+
+.input_font {
+    font-family: "roboto-light";
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 5px;
+}
