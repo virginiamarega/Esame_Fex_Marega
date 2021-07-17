@@ -1,57 +1,51 @@
-.navbar_font {
-    font-family: "roboto-bold";
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
+/* CSS Navbar */
+
+.navbar-style {
+    background-color: #404040;
 }
 
-.footer_font {
-    font-family: "roboto-bold";
-    font-size: 18px;
-    line-height: 20px;
-    letter-spacing: 10px;
-    text-transform: uppercase;
+.navbar-nav {
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
-.btn_font {
+.navbar-font {
+    color: #fafafa;
     font-family: "roboto-bold";
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 16px;
     letter-spacing: 2px;
-}
-
-.info {
-    font-family: "roboto-light";
-    font-size: 14px;
-    line-height: 20px;
     text-transform: uppercase;
 }
 
-.h1_landing {
-    font-family: "roboto-medium";
-    font-size: 52px;
-    line-height: 20px;
-    letter-spacing: 10px;
+.navbar-font:focus, .navbar-font:hover{
+    color: #dedede;
+    text-decoration: underline;
 }
 
-.h2_landing {
-    font-family: "roboto-thin";
-    font-size: 26px;
-    line-height: 20px;
-    letter-spacing: 10px;
+/* Css Footer */
+
+.footer {
+    text-align: left;
+    background-color: #404040;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.footer li {
+    list-style-type: none;
+    margin: 2%;
 }
 
-.p_landing {
-    font-family: "roboto-light";
-    font-size: 24px;
-    line-height: 20px;
-    letter-spacing: 10px;
+.footer a {
+    color: #fafafa;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
-.input_font {
-    font-family: "roboto-light";
-    font-size: 18px;
-    line-height: 20px;
-    letter-spacing: 5px;
+.footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer i {
+    color: white;
 }

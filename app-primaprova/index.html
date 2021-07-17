@@ -1,19 +1,99 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TitoloProgetto</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="bootstrap-icons/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="global_style.css">
-    <link rel="stylesheet" href="font.css">
-    <link rel="stylesheet" href="custom_style.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="/styles/font.css">
+    <link rel="stylesheet" type="text/css" href="/styles/global_styles.css">
+    <link rel="stylesheet" type="text/css" href="/styles/custom_styles.css">
+
 
 </head>
+
 <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-style">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link navbar-font" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-font" href="#">Chi siamo</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navbar-font" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Sedi
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">XXXXX</a>
+                            <a class="dropdown-item" href="#">XXXXXX</a>
+                            <a class="dropdown-item" href="#">XXXXX</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-font" href="#">Contatti</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row footer">
+        <div class="offset-lg-1 col-lg-3">
+            <a class="h4" href="#">Chi siamo</a>
+            <li>
+                <a class="p" href="#">L'Azienda</a>
+            </li>
+            <li>
+                <a class="p" href="#">FAQ</a>
+            </li>
+            <li>
+                <a class="p" href="#">Privacy Policy</a>
+            </li>
+        </div>
+        <div class="col-lg-3">
+            <a class="h4" href="#">Sedi</a>
+            <li>
+                <a class="p" href="#">Milano</a>
+            </li>
+            <li>
+                <a class="p" href="#">Roma</a>
+            </li>
+            <li>
+                <a class="p" href="#">Napoli</a>
+            </li>
+        </div>
+        <div class="col-lg-3">
+            <a class="h4" href="#">Contatti</a>
+            <li>
+                <i class="bi bi-envelope"></i>
+                <a class="p" href="#">mariorossi@gmail.it</a>
+            </li>
+            <li>
+                <i class="bi bi-telephone"></i>
+                <a class="p" href="#">+39 048152465</a>
+            </li>
+        </div>
+        <div class="col-lg-2">
+            <a class="h4" href="#">Social</a>
+            <div>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-instagram"></i>
+            </div>
+
+        </div>
+    </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -24,4 +104,5 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+
 </html>
