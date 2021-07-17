@@ -34,12 +34,34 @@ h3 {
 h4 {
     font-family: "roboto-light";
     font-size: 20px;
-    line-height: 40px;
-    letter-spacing: 10px;
+    line-height: 30px;
+    letter-spacing: 5px;
 }
 
 p {
     font-family: "roboto-light";
     font-size: 18px;
     line-height: 40px;
+}
+
+.p-secondary {
+    font-family: "roboto-light";
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 5px;
+}
+
+span {
+    font-family: "roboto-light";
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.cash {
+    font-family: "roboto-light";
+    font-size: 36px;
+    line-height: 20px;
+    letter-spacing: 20px;
 }
