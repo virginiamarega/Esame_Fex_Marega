@@ -54,8 +54,8 @@ Inizialmente è stato creato un file per il design system, contentente tutti i c
 Successivamente è stato sviluppato il prototipo seguendo le necessità che sono sorte durante l'analisi e la progettazione (personas, customer journey map e state transition storyboard).
 
 Le pagine che sono state realizzate con Figma sono:
-- Pagina di dettaglio
 - Landing Page
+- Pagina di dettaglio
 
 La realizzazione del prototipo della Landing page è stato pensato cercando di inserire le varie località, con al di sotto una o più località che sono meno frequentate, così da poter promuovere anch'esse. In seguito, è stato pensato di risaltare i pacchetti acquistabili con i dettagli più interessanti, sarebbe possibile tramite un bottone ricondurre l'utente a delle maggiori informazioni riguardanti i pass.
 È stato anche aggiunto un form di contatto in caso che un utente avesse la necessità di richidere informazioni.
@@ -74,7 +74,7 @@ L'applicativo è stato strutturato in questo modo:
 Le pagine che sono state realizzate sono:
 - Landing Page
 
-La pagina è stata sviluppata cercando di essere più possibile coerente con il prototipo sviluppato precedentemente, seguendo i criteri decisi in precedenza.
+La pagina è stata sviluppata cercando di essere più possibile coerente con il prototipo sviluppato precedentemente tenendo conto dei criteri imposti.
 
 # Sistema Innovativo
 ## Docs
