@@ -9,7 +9,7 @@ Step 2: accedere nella cartella e aprire il terminale (File > Apri Windows Power
 
 Step 3: copiare e incollare questo comando
         ```
-        git clone https://github.com/virginiamarega/Esame_Marega_Virginia.git
+        git clone https://github.com/virginiamarega/its-esame-finale.git
         ```
         
 All'interno della cartella creata in precedenza verrà creata un'altra cartella chiamata "Esame_Marega_Virginia"
@@ -30,6 +30,19 @@ Per accedere alle piattaforme utilizzate per la fase di analisi è possibile acc
 
 Ps. I link relativi ai servizi di Google sono accessibili soltanto con ***l'account della scuola***, mentre i link realtivi a Mirò e Figma ***occorre avere un account*** (se no non si può accedere ai vari file).
 
+
+# Task Iniziali Comuni
+
+## Personas
+La parte della personas è stata sviluppata seguendo le necessità sorte all'interno dell'esercizio, dove c'è la necessità di promuovere le attrazioni delle località italiane.  La personas è stata pensata come una persona che vuole viaggiare e conoscere nuove località e attrazioni, che ha delle passioni che vorrebbe accrescere visistando nuove città italiane che non aveva ancora visto.
+
+## CJM
+Il flusso che segue questa persona parte dalla prima fase di esigenza dove nasce la voglia di visitare una nuova attrazione italiana.
+Seguendo con la fase di ricerca, dove cerca i diversi posti da visitare; segue la valutazione e la prenotazione dove confronta le offerte e infine decide di prenotare la sua visita. Successivamente troviamo la preparazione dove si prepara alla partenza (stampa documenti, prepara lo zaino, e così via), segue la partenza, l'arrivo e lo svolgimento, concludendo con il ritorno a casa dove immagazina tutto quello che ha visto e imparato durante la sua visita.
+
+## STS
+Il percorso che svolge all'interno del sistema inizia da una visualizzazione di un post su instagram che la porta all'interno di una Landing Page. Interessata visualizza le località offerte dall'azienda e ne visualizza il dettaglio di quella che più le interessata. Decide quindi il giorno e il numero di biglietti, dopo l'inserimento dei dati anagrafici e dei dati del pagamento, conferma la prenotazione e riceve la conferma via mail.
+
 # Prototipizazzione
 Il mock dell'sito è accessibile tramite questo link [Mock Applicativo Figma](https://www.figma.com/file/gapy1TGFhutlHgAi2yHmw1/Applicativo?node-id=0%3A1)
 
@@ -42,19 +55,16 @@ Inizialmente è stato creato un file per il design system, contentente tutti i c
 Successivamente è stato sviluppato il prototipo seguendo le necessità che sono sorte durante l'analisi e la progettazione (personas, customer journey map e state transition storyboard).
 
 Le pagine che sono state realizzate con Figma sono:
-- Pagina con lista, contenente la possibilità di filtraggio e ordinamento
-- Pagina di dettaglio, contenente tutti i dettagli di un elemento
-- Landing Page, contenente tutte le informazioni riguardanti ai servizi proposti dall'azienda
-
+- Pagina di dettaglio, contenente tutti i dettagli di una località
+- Landing Page, contenente tutte le informazioni riguardanti alla località, promozioni, pass, etc.
 
 # Sviluppo Applicativo
 L'applicativo è stato strutturato in questo modo:
 - ***file index.html*** - contiene il codice riguardante la landing page;
-- ***file details_item.html*** - contiene il codice riguardante il dettaglio di un elemento;
 - ***cartella style*** - contiene tutti i file riguardanti gli stili, quali font (***font.css***), colori e dimensioni testi (***global_styles***), stili personalizzati degli elementi presenti nei file html globali, quali navbar, footer, etc(***custom_styles.css***);
         - successivamente sono stati creati dei file css contenenti gli stili personalizzati delle pagine:
                 - landing page(***custom_landing_styles.css***)
-- ***cartella assets*** - contiene due sottocartelle: ***font***, che contiene i file dei font, ***img*** che contiene tutte le immagini interessate all'sito, ***icons*** che contiene i file png delle icone;
+- ***cartella assets*** - contiene due sottocartelle: ***font***, che contiene i file dei font, ***img*** che contiene tutte le immagini interessate all'sito;
 
 Le pagine che sono state realizzate sono:
 - Landing Page
