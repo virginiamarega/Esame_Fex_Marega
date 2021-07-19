@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="styles/custom_styles.css">
     <link rel="stylesheet" type="text/css" href="styles/custom_landing_styles.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-style">
         <div class="container-fluid">
@@ -29,31 +30,28 @@
                         <a tabindex="0" class="nav-link navbar-font" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a tabindex="1" class="nav-link navbar-font" href="#">Località</a>
+                        <a tabindex="1" class="nav-link navbar-font" href="#location">Località</a>
                     </li>
                     <li class="nav-item">
-                        <a tabindex="2" class="nav-link navbar-font" href="#">Pacchetti</a>
+                        <a tabindex="2" class="nav-link navbar-font" href="#plans">Pacchetti</a>
                     </li>
                     <li class="nav-item">
-                        <a tabindex="3" class="nav-link navbar-font" href="#">Contattaci</a>
+                        <a tabindex="3" class="nav-link navbar-font" href="#contact">Contattaci</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <div class="container-fluid">
-        <div class="row cards-list">
-            <h1>Le nostre località</h1>
+        <div class="row cards-list" id="location">
+            <h1>Le località</h1>
             <div class="row">
                 <div class="col-lg-4">
                     <div class="card bg-dark">
-                        <img src="./assets/img/colosseo.jpg" class="card-img" alt="Roma">
+                        <img src="./assets/img/roma.jpg" class="card-img" alt="Roma">
                         <div class="card-img-overlay">
                             <div class="row">
-                                <h4 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                            </div>
-                            <div class="row">
-                                <span class="card-title">Roma</h2>
+                                <h2 class="card-title">Roma</h2>
                             </div>
                             <a tabindex="4" href="#">Scopri di più</a>
                         </div>
@@ -64,10 +62,7 @@
                         <img src="./assets/img/firenze.jfif" class="card-img" alt="Firenze">
                         <div class="card-img-overlay">
                             <div class="row">
-                                <h4 class="card-title"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                            </div>
-                            <div class="row">
-                                <span class="card-title">Firenze</h2>
+                                <h2 class="card-title">Firenze</h2>
                             </div>
                             <a tabindex="5" href="#">Scopri di più</a>
                         </div>
@@ -78,19 +73,49 @@
                         <img src="./assets/img/genova.jpg" class="card-img" alt="Genova">
                         <div class="card-img-overlay">
                             <div class="row">
-                                <h4 class="card-title"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                            </div>
-                            <div class="row">
-                                <span class="card-title">Genova</h2>
+                                <h2 class="card-title">Genova</h2>
                             </div>
                             <a tabindex="6" href="#">Scopri di più</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-dark">
+                        <img src="./assets/img/venezia.jpg" class="card-img" alt="Venezia">
+                        <div class="card-img-overlay">
+                            <div class="row">
+                                <h2 class="card-title">Venezia</h2>
+                            </div>
+                            <a tabindex="7" href="#">Scopri di più</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-dark">
+                        <img src="./assets/img/cagliari.jpg" class="card-img" alt="Cagliari">
+                        <div class="card-img-overlay">
+                            <div class="row">
+                                <h2 class="card-title">Cagliari</h2>
+                            </div>
+                            <a tabindex="8" href="#">Scopri di più</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-dark">
+                        <img src="./assets/img/milano.jpg" class="card-img" alt="Milano">
+                        <div class="card-img-overlay">
+                            <div class="row">
+                                <h2 class="card-title">Milano</h2>
+                            </div>
+                            <a tabindex="9" href="#">Scopri di più</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <hr>
-        <div class="row info">
+        <div class="row info" id="info">
             <div class="col-lg-6 box-text">
                 <div class="row">
                     <h1>La località perduta</h1>
@@ -99,21 +124,21 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12 col-12">
-                        <svg class="info-rate" fill="currentColor" class="bi bi-star-fill"
-                            viewBox="0 0 16 16">
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        <svg class="info-rate" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
                         </svg>
-                        <svg class="info-rate" fill="currentColor" class="bi bi-star-fill"
-                            viewBox="0 0 16 16">
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        <svg class="info-rate" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
                         </svg>
-                        <svg class="info-rate" fill="currentColor" class="bi bi-star-fill"
-                            viewBox="0 0 16 16">
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        <svg class="info-rate" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
                         </svg>
-                        <svg class="info-rate" fill="currentColor" class="bi bi-star-fill"
-                            viewBox="0 0 16 16">
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        <svg class="info-rate" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
                         </svg>
                     </div>
                     <div class="info-focus">
@@ -132,15 +157,15 @@
                         </span>
                     </div>
                 </div>
-                <button tabindex="7" class="btn btn-darkgrey">Scopri di più</button>
+                <button tabindex="10" class="btn btn-darkgrey">Scopri di più</button>
             </div>
             <div class="col-lg-6 col-12 box-img">
                 <img src="assets/img/genova2.jpg" alt="Genova2">
             </div>
         </div>
         <hr>
-        <div class="row plans justify-content-center">
-            <h1>Lorem Ipsum</h1>
+        <div class="row plans justify-content-center" id="plans">
+            <h1>I pacchetti</h1>
             <div class="col-lg-4 col-12">
                 <div class="card card-plan">
                     <div class="card-body">
@@ -149,10 +174,10 @@
                             <hr>
                             <p class="p-secondary">1 giorno</p>
                             <hr>
-                            <p class="p-secondary">Attrazioni provinciali</p>
+                            <p class="p-secondary">Attrazioni Provincia</p>
                             <hr>
                             <p class="p-secondary">Pass Standard</p>
-                            <button tabindex="8" class="btn btn-lightgrey">Vai al piano</button>
+                            <button tabindex="11" class="btn btn-lightgrey">Vai al piano</button>
                     </div>
                 </div>
             </div>
@@ -164,89 +189,91 @@
                             <hr>
                             <p class="p-secondary">7 giorni</p>
                             <hr>
-                            <p class="p-secondary">Attrazioni Nazionali</p>
+                            <p class="p-secondary">Attrazioni Nazione</p>
                             <hr>
                             <p class="p-secondary">Pass Premium</p>
-                            <button tabindex="9" class="btn btn-lightgrey">Vai al piano</button>
+                            <button tabindex="12" class="btn btn-lightgrey">Vai al piano</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <hr>
-    <div class="row form-contact">
+    <div class="row form-contact" id="contact">
         <h1>Contattaci</h1>
         <h2>Per avere più informazioni</h2>
         <div class="row">
             <form class="row g-3">
                 <div class="col-lg-3 col-12">
                     <label class="form-label">Nome</label>
-                    <input tabindex="10" type="text" class="form-control" placeholder="Es. Mario">
+                    <input tabindex="13" type="text" class="form-control" placeholder="Es. Mario">
                 </div>
                 <div class="col-lg-3 col-12">
                     <label class="form-label">Rossi</label>
-                    <input tabindex="11" type="text" class="form-control" placeholder="Es. Rossi">
+                    <input tabindex="14" type="text" class="form-control" placeholder="Es. Rossi">
                 </div>
                 <div class="col-lg-3 col-12">
                     <label class="form-label">Email</label>
-                    <input tabindex="12" type="email" class="form-control" placeholder="Inserisci l'email">
+                    <input tabindex="15" type="email" class="form-control" placeholder="Inserisci l'email">
                 </div>
                 <div class="col-lg-3 col-12">
                     <label class="form-label">Telefono</label>
-                    <input tabindex="13" type="email" class="form-control" placeholder="Inserisci il numero di telefono">
+                    <input tabindex="16" type="email" class="form-control"
+                        placeholder="Inserisci il numero di telefono">
                 </div>
                 <div class="col-lg-12 col-12">
                     <label class="form-label">Chiedi</label>
-                    <textarea tabindex="14" class="form-control" placeholder="Scrivi qua..." style="height: 100px"></textarea>
+                    <textarea tabindex="17" class="form-control" placeholder="Scrivi qua..."
+                        style="height: 100px"></textarea>
                 </div>
                 <div class="col-12 d-flex justify-content-end">
-                    <button tabindex="15" type="submit" class="btn btn-lightgrey">Invia</button>
+                    <button tabindex="18" type="submit" class="btn btn-lightgrey">Invia</button>
                 </div>
             </form>
         </div>
     </div>
     <div class="row footer">
         <div class="col-lg-3">
-            <a tabindex="16" class="footer-title" href="#">Chi siamo</a>
+            <a tabindex="19" class="footer-title" href="#">Chi siamo</a>
             <li>
-                <a tabindex="17"class="footer-link" href="#">L'Azienda</a>
+                <a tabindex="20" class="footer-link" href="#">L'Azienda</a>
             </li>
             <li>
-                <a tabindex="18" class="footer-link" href="#">FAQ</a>
+                <a tabindex="21" class="footer-link" href="#">FAQ</a>
             </li>
             <li>
-                <a tabindex="18" class="footer-link" href="#">Privacy Policy</a>
-            </li>
-        </div>
-        <div class="col-lg-3">
-            <a tabindex="20" class="footer-title" href="#">Sedi</a>
-            <li>
-                <a tabindex="21"class="footer-link" href="#">Pordenone</a>
-            </li>
-            <li>
-                <a tabindex="22" class="footer-link" href="#">Udine</a>
-            </li>
-            <li>
-                <a tabindex="23" class="footer-link" href="#">Trieste</a>
+                <a tabindex="22" class="footer-link" href="#">Privacy Policy</a>
             </li>
         </div>
         <div class="col-lg-3">
-            <a tabindex="24" class="footer-title" href="#">Contatti</a>
+            <a tabindex="23" class="footer-title" href="#">Sedi</a>
+            <li>
+                <a tabindex="24" class="footer-link" href="#">Pordenone</a>
+            </li>
+            <li>
+                <a tabindex="25" class="footer-link" href="#">Udine</a>
+            </li>
+            <li>
+                <a tabindex="26" class="footer-link" href="#">Trieste</a>
+            </li>
+        </div>
+        <div class="col-lg-3">
+            <a tabindex="27" class="footer-title" href="#">Contatti</a>
             <li>
                 <i class="bi bi-envelope"></i>
-                <a tabindex="25" class="footer-link" href="#">touringclubitaliano@gmail.com</a>
+                <a tabindex="28" class="footer-link" href="#">touringclubitaliano@gmail.com</a>
             </li>
             <li>
                 <i class="bi bi-telephone"></i>
-                <a tabindex="26" class="footer-link" href="#">+39 048152465</a>
+                <a tabindex="29" class="footer-link" href="#">+39 048152465</a>
             </li>
         </div>
         <div class="col-lg-2">
-            <a tabindex="27" class="footer-title" href="#">Social</a>
+            <a tabindex="30" class="footer-title" href="#">Social</a>
             <div>
-                <a tabindex="28" href="#"><i class="bi bi-facebook"></i></a>
-                <a tabindex="29" href="#"><i class="bi bi-twitter"></i></a>
-                <a tabindex="30" href="#"><i class="bi bi-instagram"></i></a>
+                <a tabindex="31" href="#"><i class="bi bi-facebook"></i></a>
+                <a tabindex="32" href="#"><i class="bi bi-twitter"></i></a>
+                <a tabindex="33" href="#"><i class="bi bi-instagram"></i></a>
             </div>
         </div>
     </div>
@@ -260,4 +287,5 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+
 </html>

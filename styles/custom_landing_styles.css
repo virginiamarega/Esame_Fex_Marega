@@ -23,7 +23,7 @@
 
 .card-img-overlay {
     background-color: #404040;
-    margin: 10%;
+    margin: 20%;
 }
 
 .card a {
@@ -42,8 +42,8 @@
     color: #dedede;
 }
 
-.card span {
-    color: #dedede;
+.card h2 {
+    color: white;
     margin-top: 2%;
     margin-bottom: 5%;
 }
@@ -119,6 +119,7 @@
     margin-top: 30%;
     margin-bottom: 5%;
 }
+
 
 /* CSS Form */
 .form-contact {
