@@ -24,7 +24,6 @@ Per accedere alle piattaforme utilizzate per la fase di analisi è possibile acc
 - #### [Mirò](https://miro.com/app/board/o9J_l6MkzoQ=/)
 - #### [Team Figma](https://www.figma.com/team_invite/redeem/VCxzwCAo70golS8wMFtxZi)
 - #### [Mock Applicativo Figma](https://www.figma.com/file/gapy1TGFhutlHgAi2yHmw1/Applicativo?node-id=0%3A1)
-- #### [Cartella in Drive](https://drive.google.com/drive/folders/1FQEXgmy4oxFInOlcd2wIREhmhkMsuFx6?usp=sharing)
 - #### [Marega_Sistema_Innovativo Docs](https://docs.google.com/document/d/1-jHPAbyxrSvylMH0Qjzta6vDXQ8XkOgLEQB9oXpcWys/edit?usp=sharing)
 - #### [Mock Sistema Innovativo Figma](https://www.figma.com/file/yFbcnxLfTM5d7f6pCT7t0a/Sistema-Innovativo?node-id=0%3A1)
 
@@ -78,7 +77,7 @@ La pagina è stata sviluppata cercando di essere più possibile coerente con il 
 
 # Sistema Innovativo
 ## Docs
-La progettazione del sistema innovativo (file ***Marega_Sistema_Innovativo***) è accessibile tramite questo link [Marega_Sistema_Innovativo Docs](https://docs.google.com/document/d/1-jHPAbyxrSvylMH0Qjzta6vDXQ8XkOgLEQB9oXpcWys/edit?usp=sharing) .
+La progettazione del sistema innovativo (file ***Marega_Sistema_Innovativo***) è accessibile tramite questo link [Marega_Sistema_Innovativo Docs](https://docs.google.com/document/d/1-jHPAbyxrSvylMH0Qjzta6vDXQ8XkOgLEQB9oXpcWys/edit?usp=sharing)
 
 All'interno del file è presente la progettazione del sistema, con un'introduzione, il flusso ed altre informazioni.
 
