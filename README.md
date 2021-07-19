@@ -85,3 +85,12 @@ All'interno del file è presente la progettazione del sistema, con un'introduzio
 Il mock è accessibile tramite questo link [Mock Sistema Innovativo Figma](https://www.figma.com/file/yFbcnxLfTM5d7f6pCT7t0a/Sistema-Innovativo?node-id=0%3A1)
 
 La struttura è stata sviluppata seguendo gli stili già esistenti negli Apple Watch.
+
+Seguendo il documento sono state implementate delle funzionalità, quali:
+- liste
+- qr code biglietto
+- percorso e mappa
+- anteprima attrazione
+- canale di comunicazione con l'azienda
+- notifiche meteo
+- notifiche eventi
