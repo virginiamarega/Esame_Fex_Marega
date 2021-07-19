@@ -12,12 +12,12 @@ Step 3: copiare e incollare questo comando
         git clone https://github.com/virginiamarega/its-esame-finale.git
         ```
         
-All'interno della cartella creata in precedenza verrà creata un'altra cartella chiamata "Esame_Marega_Virginia"
+All'interno della cartella creata in precedenza verrà creata un'altra cartella chiamata "its-esame-finale"
 
-Step 4: accedere alla cartella "Esame_Marega_Virginia" e per visualizzare il sito occorre ***cliccare due volte sul file index.html***
+Step 4: accedere alla cartella "its-esame-finale" e per visualizzare il sito occorre ***cliccare due volte sul file index.html***
         si aprirà la pagina html sviluppatata
 
-Step 5: per visualizzare il codice occorre aprire il file html con uno strumento, che può essere Blocco Note, Note++, Visual Studio o Visual Studio Code, oppure qualsiasi strumento che permette la visualizzazione del codice
+Step 5: per visualizzare il codice occorre aprire il file html con un editor, che può essere Blocco Note, Note++, Visual Studio o Visual Studio Code, oppure qualsiasi strumento che permette la visualizzazione del codice
 
 # Link ai documenti
 Per accedere alle piattaforme utilizzate per la fase di analisi è possibile accedervi tramite i link sottostanti:
@@ -29,7 +29,6 @@ Per accedere alle piattaforme utilizzate per la fase di analisi è possibile acc
 - #### [Mock Sistema Innovativo Figma](https://www.figma.com/file/yFbcnxLfTM5d7f6pCT7t0a/Sistema-Innovativo?node-id=0%3A1)
 
 Ps. I link relativi ai servizi di Google sono accessibili soltanto con ***l'account della scuola***, mentre i link realtivi a Mirò e Figma ***occorre avere un account*** (se no non si può accedere ai vari file).
-
 
 # Task Iniziali Comuni
 
@@ -62,7 +61,7 @@ La realizzazione del prototipo della Landing page è stato pensato cercando di i
 È stato anche aggiunto un form di contatto in caso che un utente avesse la necessità di richidere informazioni.
 
 Invece per la realizzazione del prototipo del dettaglio è stato pensato di mettere come prime informazioni delle immagini descrittive e delle informazioni relative alla località e al sito che offre questa esperienza. Sempre nella parte delle informazioni sono state aggiunti i dati relativi alla città (breve descrizione), le varie attrazioni presenti e il prezzo dei pass.
-Seguono poi altre località che potrebbero interessare all'utente (selezionate in base al "prestigio" della località).
+Seguono poi altre località che potrebbero interessare all'utente (filtrate in base alla somiglianza delle varie località).
 
 # Sviluppo Applicativo
 L'applicativo è stato strutturato in questo modo:
